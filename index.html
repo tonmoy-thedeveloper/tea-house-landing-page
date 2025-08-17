@@ -20,8 +20,49 @@
     <!-- Raw CSS link -->
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body>
-    <header></header>
+  <body class="fonr-manrope_font">
+    <header class="max-w-[1250px] mx-auto">
+      <!-- Hero section -->
+      <div class="md:flex items-end">
+        <!-- Hero content -->
+        <div class="flex-1">
+          <h1 class="text-[48px] md:text-[80px] font-bold">
+            It's good <br />
+            tea time at The <br />
+            Tea House
+          </h1>
+          <p class="text-lg text-[#777] my-6">
+            Tea and Botanical Solutions Supplier Give Optimum <br />
+            Satisfaction To Your Taste Buds.
+          </p>
+          <button
+            class="flex items-center gap-3 bg-gradient-to-r from-[#FF8938] to-[#F00] px-5 py-4 text-white rounded-lg cursor-pointer"
+          >
+            <span class="text-xl">Explore More</span>
+            <i class="fa-solid fa-arrow-right -rotate-45"></i>
+          </button>
+        </div>
+
+        <!-- Hero img -->
+        <div class="flex-1 relative">
+          <img src="./images/banner.png" alt="" />
+          <!-- Rating badge -->
+          <div
+            class="flex items-center gap-3 px-7 py-4 rounded-lg bg-white shadow-md absolute bottom-2"
+          >
+            <!-- <i class="fa-solid fa-star"></i> -->
+            <img src="./images/rating.svg" alt="" />
+            <!-- Rating Text -->
+            <div>
+              <h4 class="text-3xl font-extrabold text-[#1C1C1C]">5.00</h4>
+              <h5 class="text-base font-semibold text-[#777]">
+                Trust Pilot Ratings
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
     <main></main>
     <footer></footer>
   </body>
